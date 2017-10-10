@@ -1,0 +1,40 @@
+body {
+  font-family: helvetica, roboto, sans-serif;
+}
+h1 {
+  text-align: center
+}
+.external-container{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  background: rgba(231,231,231, 0.4)
+}
+.connected-people {
+  flex: 0 1 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  max-width: 400px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.chat-container{
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.messages, .writing {
+  padding: 10px;
+  border: 1px solid black; 
+  border-left: none;
+}
+.title {
+  text-align: center;
+}
+.message {
+  flex: 1 1 auto;
+}
+.writing{
+  flex: 0 0 100px;
+}
